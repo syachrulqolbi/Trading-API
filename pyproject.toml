@@ -1,0 +1,9 @@
+[project]
+name = "trading-api"
+version = "1.0.0"
+description = "Cloud Run-ready FastAPI service for trading market data."
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

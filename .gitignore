@@ -1,0 +1,30 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+outputs/*
+!outputs/README.md
+data/*.xlsx
+data/*.csv
+.DS_Store
+.idea/
+.vscode/
+
+# Local curl/API test outputs
+refresh_*.json
+markets*.json
+stocks.json
+forex.json
+crypto.json
+*_local.json
+cache_status*.json
+health*.json
+
+# Local runtime/cache artifacts
+*.log
+.trading_api_cache.json
+trading_api_cache.json

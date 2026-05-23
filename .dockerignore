@@ -1,0 +1,30 @@
+.git
+.github
+.pytest_cache
+**/__pycache__
+**/*.pyc
+.env
+.env.*
+outputs/*
+!outputs/README.md
+data/*
+!data/README.md
+*.zip
+*.xlsx
+*.xls
+README_drafts
+
+# Local curl/API test outputs
+refresh_*.json
+markets*.json
+stocks.json
+forex.json
+crypto.json
+*_local.json
+cache_status*.json
+health*.json
+
+# Local runtime/cache artifacts
+*.log
+.trading_api_cache.json
+trading_api_cache.json
